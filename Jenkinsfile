@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo "Building the C++ program..."
-                    sh 'g++ -o PES1UG22AM1344-1 main.cpp'  // Compile C++ file
+                    sh 'g++ -o PES1UG22AM134-1 main.cpp'  // Compile C++ file
                 }
             }
         }
@@ -34,4 +34,5 @@ pipeline {
             echo 'Pipeline failed'
         }
     }
+}
 }
